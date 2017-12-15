@@ -1,8 +1,17 @@
+@keyframes fadeToTuquiose {
+  0% {
+    color: #feea8d; }
+  50% {
+    color: #5d5951; }
+  100% {
+    color: #53c3c8; } }
 *,
 *:after,
 *:before {
   margin: 0;
-  padding: 0; }
+  padding: 0;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box; }
 
 body {
   font-family: sans-serif;
@@ -31,7 +40,8 @@ a {
       display: inline;
       text-align: right;
       margin-left: 20px;
-      color: #5d5951; }
+      color: #5d5951;
+      animation: fadeTogrey 10s ease-in infinite; }
 
 .hero {
   background-image: url("../../img/bird.jpg");
@@ -43,6 +53,17 @@ a {
   justify-content: flex-end;
   align-items: center; }
 
+@keyframes colorFade {
+  0% {
+    color: #5d5951; }
+  25% {
+    color: #c37836; }
+  50% {
+    color: #feea8d; }
+  75% {
+    color: #c37836; }
+  100% {
+    color: #5d5951; } }
 .about {
   width: 443px;
   height: 149px;
@@ -51,16 +72,17 @@ a {
   flex-direction: column;
   justify-content: space-around; }
   .about .moto {
-    text-align: center;
-    color: teal; }
+    text-align: center; }
+    .about .moto span {
+      animation: colorFade 30s ease-in infinite; }
 
 .terminal {
   display: flex;
   flex-direction: column;
+  border-radius: 5px;
+  padding: 2px;
   color: #39dcdc;
   background-color: #000000a1;
-  border-top: solid 17px #b5b3b3;
-  border-radius: 5px;
-  padding: 2px; }
+  border-top: solid 17px #b5b3b3; }
 
 /*# sourceMappingURL=main.css.map */

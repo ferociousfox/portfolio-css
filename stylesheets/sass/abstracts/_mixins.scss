@@ -14,3 +14,47 @@
      clear: both;
    }
 }
+
+// KEYFRAMES
+@keyframes fadeToTuquiose {
+  0% {
+    color: #feea8d;
+  }
+
+  50% {
+    color: #5d5951;
+  }
+
+  100% {
+  color: #53c3c8;
+  }
+}
+// @keyframes colorChange {
+//   0% {
+//     color: red;
+//   }
+//   12% {
+//     color: orange;
+//   }
+//   25% {
+//     color: rgb(255, 248, 70);
+//   }
+//   37% {
+//     color: green;
+//   }
+//   50% {
+//     color: darkgreen;
+//   }
+//   62% {
+//     color: teal;
+//   }
+//   75% {
+//     color: magenta;
+//   }
+//   87% {
+//     color: purple;
+//   }
+//   100% {
+//     color: red;
+//   }
+// }

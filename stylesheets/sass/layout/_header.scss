@@ -7,9 +7,7 @@
   justify-content: space-between;
   z-index: 1;
   // color and effects
-  background-color: #53c3c8; //bird colorscheme
-  
-
+  background-color: $turquiose;
   ul {
     list-style: none;
     padding-right: 5px;
@@ -17,7 +15,8 @@
       display:inline;
       text-align: right;
       margin-left: 20px;
-      color: #5d5951;
+      color: $grey;
+      animation: fadeTogrey 10s ease-in infinite;
       //efffects
     }
   }
