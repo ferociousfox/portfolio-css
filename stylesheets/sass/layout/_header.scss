@@ -1,4 +1,22 @@
+.header {
+  height: 80px;
+  width: 100%;
+  padding-right: 5px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  z-index: 1;
+  // color and effects
+  background-color: #327068; //bird colorscheme
 
-
-
-//something wierd happened to the menu, got to fix that shit//
+  ul {
+    list-style: none;
+    padding-right: 5px;
+    li {
+      display:inline;
+      text-align: right;
+      margin-left: 20px;
+      //efffects
+    }
+  }
+}

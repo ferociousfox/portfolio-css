@@ -1,4 +1,18 @@
+*,
+*:after,
+*:before{
+  margin: 0;
+  padding: 0;
+
+  // @include border-box;
+}
+
 body {
   // background: $bg-color;
   font-family: sans-serif;
+}
+
+h1{
+  margin-left: 10px;
+  color: #bf8456; //bird colorscheme 
 }

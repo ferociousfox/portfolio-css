@@ -1,1 +1,10 @@
-.
+.hero {
+  background-image: url('../../img/bird.jpg');
+  height: calc(100vh - 80px);
+  width: 100vw;
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
