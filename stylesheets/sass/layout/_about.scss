@@ -1,7 +1,13 @@
 .about {
   width: 443px;
   height: 149px;
+  margin-right: 5px; // use spacing variable
   display: flex;
   flex-direction: column;
-  justify-content: space-between;
+  justify-content: space-around;
+  .moto{
+    text-align: center;
+    color: teal; //a better color please!
+    //effects
+  }
 }

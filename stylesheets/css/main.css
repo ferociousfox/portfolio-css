@@ -5,11 +5,15 @@
   padding: 0; }
 
 body {
-  font-family: sans-serif; }
+  font-family: sans-serif;
+  overflow: hidden; }
 
 h1 {
   margin-left: 10px;
-  color: #bf8456; }
+  color: #5d5951; }
+
+a {
+  text-decoration: none; }
 
 .header {
   height: 80px;
@@ -19,14 +23,15 @@ h1 {
   align-items: center;
   justify-content: space-between;
   z-index: 1;
-  background-color: #327068; }
+  background-color: #53c3c8; }
   .header ul {
     list-style: none;
     padding-right: 5px; }
     .header ul li {
       display: inline;
       text-align: right;
-      margin-left: 20px; }
+      margin-left: 20px;
+      color: #5d5951; }
 
 .hero {
   background-image: url("../../img/bird.jpg");
@@ -41,14 +46,21 @@ h1 {
 .about {
   width: 443px;
   height: 149px;
+  margin-right: 5px;
   display: flex;
   flex-direction: column;
-  justify-content: space-between; }
+  justify-content: space-around; }
+  .about .moto {
+    text-align: center;
+    color: teal; }
 
 .terminal {
   display: flex;
   flex-direction: column;
-  color: purple;
-  background-color: black; }
+  color: #39dcdc;
+  background-color: #000000a1;
+  border-top: solid 17px #b5b3b3;
+  border-radius: 5px;
+  padding: 2px; }
 
 /*# sourceMappingURL=main.css.map */

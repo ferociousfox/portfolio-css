@@ -10,9 +10,13 @@
 body {
   // background: $bg-color;
   font-family: sans-serif;
+  overflow: hidden;
 }
 
 h1{
   margin-left: 10px;
-  color: #bf8456; //bird colorscheme 
+  color: #5d5951; //bird colorscheme
+}
+a {
+  text-decoration:none;
 }
