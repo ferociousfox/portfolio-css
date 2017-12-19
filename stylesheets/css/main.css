@@ -53,6 +53,16 @@ a {
   justify-content: flex-end;
   align-items: center; }
 
+@media screen and (min-width: 1200px) {
+  .hero {
+    background-image: url("../../img/camo.jpg");
+    height: calc(100vh - 80px);
+    width: 100vw;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center; } }
 @keyframes colorFade {
   0% {
     color: #5d5951; }
@@ -84,5 +94,9 @@ a {
   color: #39dcdc;
   background-color: #000000a1;
   border-top: solid 17px #b5b3b3; }
+
+@media screen and (max-width: 600px) {
+  .about {
+    display: none; } }
 
 /*# sourceMappingURL=main.css.map */

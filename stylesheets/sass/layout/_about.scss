@@ -26,7 +26,7 @@
   .moto {
     text-align: center;
     //effects
-    span{
+    span {
       animation: colorFade 30s ease-in infinite;
     }
   }
@@ -40,4 +40,10 @@
   color: #39dcdc; //teal
   background-color: #000000a1; //black transparent
   border-top: solid 17px #b5b3b3; //apple grey
+}
+
+@media screen and (max-width:600px){
+  .about {
+    display:none;
+  }
 }

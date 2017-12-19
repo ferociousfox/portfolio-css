@@ -8,3 +8,16 @@
   justify-content: flex-end;
   align-items: center;
 }
+
+@media screen and (min-width:1200px) {
+  .hero {
+    background-image: url('../../img/camo.jpg');
+    height: calc(100vh - 80px);
+    width: 100vw;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+  }
+}
