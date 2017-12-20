@@ -81,6 +81,9 @@ a {
   display: flex;
   flex-direction: column;
   justify-content: space-around; }
+  .about span {
+    animation: colorFade 30s ease-in infinite;
+    text-align: center; }
   .about .moto {
     text-align: center; }
     .about .moto span {

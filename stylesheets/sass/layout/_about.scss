@@ -23,6 +23,10 @@
   display: flex;
   flex-direction: column;
   justify-content: space-around;
+  span {
+    animation: colorFade 30s ease-in infinite;
+    text-align: center;
+  }
   .moto {
     text-align: center;
     //effects
